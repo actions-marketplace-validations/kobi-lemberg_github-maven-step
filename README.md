@@ -5,7 +5,7 @@ Examples:
 
 ```$xslt
 name: Run tests
-        uses: kobi-lemberg/github-maven-java@java8-maven3.6
+        uses: kobi-lemberg/github-maven-java@java8_maven3.6
         with:
           command: clean install
           artifactory-release-username-variable: GITHUB_USERNAME
